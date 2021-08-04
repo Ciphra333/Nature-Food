@@ -419,7 +419,7 @@ img {
     margin: 0 auto;
 }
 
-.header_container {
+.header_wrap {
    width: 100%;
    max-width: 1920px;
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -572,7 +572,7 @@ color: #ACACAC;
     border: 1px solid #DCDCDC;
     border-radius: 6px;
     background-color: #fff;
-    /* Отступы от рамки к текста */
+    /* Отступы от рамки к тексту */
     padding: 16px  16px 20px ;
     /* Убираем браузерную обводку */
     outline: none;
@@ -688,4 +688,18 @@ color: #ACACAC;
 
 }
 
+.main__text {
+    margin-top: 24px;
+    background-color: #FFFFFF, 80 %;
+}
+.main__subtitle-text {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 28.25px;
+    letter-spacing: 0.02em;
+
+    color: #202620;
+}
 /* Main End */
