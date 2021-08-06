@@ -36,6 +36,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
+    font-family: 'Gilroy';
 	line-height: 1;
 }
 
@@ -375,8 +376,6 @@ html {
     box-sizing: inherit;
 }
 
-.body {
-    font-family: 'Gilroy';
 }
 
 img {
@@ -442,7 +441,6 @@ img {
     padding-bottom: 22px;
 }
 .header_logo_title {
-    font-family: 'Gilroy';
     font-weight: 800;
     font-style: normal;
     font-size: 18px;
@@ -454,7 +452,6 @@ img {
 }
 
 .header_logo_suptitle {
-    font-family: 'Gilroy';
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -473,7 +470,6 @@ img {
 }
 
 .nav_link {
-    font-family: 'Gilroy';
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
@@ -644,7 +640,7 @@ color: #ACACAC;
 /* При наведении кнопка плавно окрашивается в зеленый */
 .select-form__submit:hover, .select-form__submit:focus {
     background-color: #2B8741;
-    transition:background .2s linear, color .1s linear ;
+    transition: .2s linear, color .1s linear ;
 }
 
 /* Select Option End */
@@ -669,7 +665,6 @@ color: #ACACAC;
     margin-top: 116px;
     color: #fff;
     padding: 27.45px 40px;
-    font-family: 'Gilroy';
     font-style: normal;
     font-weight: 800;
     font-size: 50px;
@@ -709,7 +704,6 @@ color: #ACACAC;
     max-height: 211px;
 }
 .main__subtitle-text {
-    font-family: 'Gilroy';
     font-weight: 500;
     font-style: italic;
     font-size: 24px;
@@ -721,7 +715,6 @@ color: #ACACAC;
 }
 .main__btn {
     display: inline-block;
-    font-family: 'Gilroy';
     font-weight: 600;
     font-size: 18px;
     line-height: 21px;
@@ -761,3 +754,110 @@ color: #ACACAC;
     border-radius: 5px;
 }
 /* Main End */
+
+/* Grid Menu Start */
+.grid__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 56px;
+    align-items: center;
+}
+.grid__subtitle {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #202620;
+    margin-bottom: 41px;
+}
+.grid__btn-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+.grid__btn-link::after {
+    content: '';
+    display: block;
+    width: 113px;
+    height: 1px;
+    border: 1px solid #FAAE1C;
+    margin-top: 4px;
+}
+.grid__btn-link::before {
+    content: '';
+    display: block;
+    width: 25px;
+    height: auto;
+    background: url(../images/svg/arrow-icon.svg) no-repeat right;
+    margin-left: 24px;
+
+}
+.grid__btn-link:hover, .grid__btn-link:focus {
+    opacity: .65;
+}
+.grid__btn-arrow {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+}
+.grid__img-icon {
+    width: 25px;
+    height: 25px;
+}
+.span__text-link {
+    margin-right: 24px;
+}
+.grid__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    position: relative;
+}
+.grid__pre-text {
+    position: absolute;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 25px 32px;
+    padding: 8px 16px;
+    background:#FAAE1C ;
+    border: 2px solid #fff ;
+    border-radius: 20px;
+    z-index: 1;
+
+}
+.grid__pic {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.grid__card-wrapper {
+    display: flex;
+}
+.grid__suptitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #88B840;
+    
+}
+.grid__suptitle-line::after {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 13px;
+    background-color: rgb(185, 184, 184);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+/* Grid Menu End */
