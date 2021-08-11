@@ -731,6 +731,7 @@ color: #ACACAC;
 .main__btn:hover, .main__btn:focus {
     background-color: #FAAE1C;
     transition: .4s all;
+
 }
 .grid__img-icon:hover, .grid__img-icon:focus, .grid__img-icon:active {
     background-image: url(../images/svg/arrow-icon-white.svg);
@@ -1085,6 +1086,9 @@ transition: .2s all;
     margin-top: 75px;
     margin-bottom: 39px;
 }
+.community__wrap {
+    margin-bottom: 40px;
+}
 .community__title {
     font-family: 'Gilroy';
     font-style: normal;
@@ -1145,6 +1149,52 @@ transition: .2s all;
     right: 10%;
     top: 25%;
 }
-
-
 /* Community End */
+
+/* Experts Start */
+
+.community__box-borders {
+    border:2px solid #FAAE1C;
+    border-radius: 5px;
+    position: relative;
+}
+.expert__title-main {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #202620;
+}
+
+.prev_btn {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid #FAAE1C;
+}
+.next_btn {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid #FAAE1C;
+}
+.expert__title {
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 70%;
+    color: #88B840;
+}
+.expert__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    
+}
+
+
+/* Experts__End */
