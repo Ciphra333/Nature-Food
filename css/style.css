@@ -762,6 +762,7 @@ color: #ACACAC;
     justify-content: space-between;
     margin-top: 56px;
     align-items: center;
+    gap: 20px;
 }
 .grid__subtitle {
     font-weight: 800;
@@ -770,6 +771,12 @@ color: #ACACAC;
     letter-spacing: 0.02em;
     color: #202620;
     margin-bottom: 41px;
+}
+/* Блок News - предпоследняя секция */
+.grid__btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 .grid__btn-link {
     font-weight: 500;
@@ -858,6 +865,9 @@ transition: .2s all;
     width: 2px;
     background-color:  rgb(185, 184, 184);
     margin: 5px 5px;
+}
+.title__text:hover, .title__text:focus, .title__text:active {
+opacity: .65 ;
 }
 .main__title-text {
     font-family: 'Gilroy';
@@ -1311,6 +1321,189 @@ transition: .2s all;
 /* Health Food End */
 
 /* Politics Grid Start */
+.politics__grid-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
-
+}
+.politics__grid-item {
+    position: relative;
+    padding: 24px 24px;
+    border: 2px solid #DCDCDC;
+    border-radius: 5px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column: 1/span 3;
+}
+.politcs__suptitle {
+    position: absolute;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    color: #fff;
+    left: 4.49%;
+    right: 0;
+    top: 69.5%;
+    bottom: 0%;
+}
+.politics__title {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    position: absolute;
+    left: 4.24%;
+    right: 17.14%;
+    top: 72.45%;
+    bottom: 17.68%;
+}
+.politics__text {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    right: 50.66%;
+    top: 85.29%;
+    bottom: 8.26%;
+    position: absolute;
+    left: 4.24%;
+}
 /* Politics Grid End */
+
+/* Warning Block Start */
+.warning__wrap {
+    border: 1px solid #2b8741;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.warning__title-wrap {
+    text-align: center;
+   
+}
+.warning__title {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #202620;
+    margin-top: 36px;
+}
+.warning__text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #202620;
+    margin-top: 20px;
+    margin-bottom: 46px;
+}
+.warning__text-green {
+    color: #88B840;
+}
+/* Warning Block End */
+
+
+/* Footer Start */
+.footer__wrap {
+    border-top: 1px solid #dcdcdc;
+    margin-top: 67.7px;
+}
+
+.nav__footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.nav__link-footer {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin: 0 30px;
+}
+.nav__link-footer:first-child {
+    padding: 0;
+}
+.nav__link-footer:hover, .nav__link-footer:focus, .nav__link-footer:active {
+    opacity: .75;
+}
+.footer__text {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ACACAC;
+    text-align: end;
+}
+.footer__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 75.22px;
+}
+.footer__logo-item--first {
+    width: auto;
+    height: 71px;
+    cursor: pointer;
+}
+.footer__logo-item--second {
+    width: auto;
+    height: 90px;
+    cursor: pointer;
+}
+
+
+.footer__logo-item--first:first-child{
+   padding-right: 15px;
+   border-right: 1px solid #000;
+}
+
+.footer__logo-item--second {
+    padding-left: 25px;
+}
+.footer__logo-text {
+    padding-top: 19px;
+    padding-bottom: 22px;
+}
+.footer__logo-title {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 25px 0;
+    color: #2b8741;
+    text-transform: uppercase;
+}
+
+.footer__logo-suptitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 25px 0;
+    color: #202620;
+}
+.footer__wrap-last-area {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__text-area {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ACACAC;
+    margin-top: 70px;
+}
+.footer__social {
+    display: flex;
+    align-items: flex-end;
+}
+/* Footer End */
