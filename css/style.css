@@ -1578,4 +1578,7 @@ opacity: .65 ;
     
     color: #202620;
 }
+.ok, .fb, .vk, .inst {
+    background-repeat: no-repeat;
+}
 /* Footer End */
