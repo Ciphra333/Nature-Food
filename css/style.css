@@ -1401,6 +1401,9 @@ opacity: .65 ;
     margin-top: 20px;
     margin-bottom: 46px;
 }
+.mail__decoration {
+    text-decoration: none;
+}
 .warning__text-green {
     color: #88B840;
 }
