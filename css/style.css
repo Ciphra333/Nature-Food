@@ -1447,7 +1447,7 @@ opacity: .65 ;
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    margin-top: 75.22px;
+    margin-top: 57.22px;
 }
 .footer__logo-item--first {
     width: auto;
@@ -1494,6 +1494,7 @@ opacity: .65 ;
 .footer__wrap-last-area {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .footer__text-area {
     font-weight: 500;
@@ -1505,5 +1506,73 @@ opacity: .65 ;
 .footer__social {
     display: flex;
     align-items: flex-end;
+}
+.li__wrap {
+    margin-right: 10px;
+}
+.li__wrap:last-child {
+    margin-right: 0;
+}
+.ok {
+    background-image: url(../images/svg/ok.svg);
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.fb {
+    background-image: url(../images/svg/facebook.svg);
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.vk {
+    background-image: url(../images/svg/vk.svg);
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.inst {
+    background-image: url(../images/svg/instagram.svg);
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.footer__logo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -32%;
+    right: 31%;
+    background-color: #fff;
+    z-index: 15;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.footer__logo_text {
+    padding-top: 19px;
+    padding-bottom: 22px;
+}
+.footer__logo_title {
+    font-weight: 800;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+  
+    margin: 0 25px 0;
+    color: #2b8741;
+    text-transform: uppercase;
+}
+.footer__logo_suptitle {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.07em;
+    margin: 0 25px 0;
+
+    
+    color: #202620;
 }
 /* Footer End */
