@@ -518,37 +518,31 @@
         <div class="container">
             <div class="experts__box-borders">
                 <h3 class="expert__title-main">Эксперты сообщества</h3>
-                <button class="prev_btn">
-                    <span class="left__arrow"></span>
-                </button>
-                <button class="next_btn">
-                    <span class="right__arrow"></span>
-                </button>
-                <div class="expert__items-wrap">
-                    <div class="expert__item">
-                        <div class="expr__border-cube-green">
-                            <img class="experts__img" src="../Nature-Food/images/expr-icon-1.png" alt="">
+                <div class="slider">
 
+                    <div class="slider__item">
+                        <div class="expr__border-cube-green">
+                            <img src="./images/expr-icon-1.png" alt="">
                         </div>
                         <div class="text__wrap">
                             <p class="experts__title">Ольга Ткачева</p>
                             <p class="experts__text">Гериатр</p>
                         </div>
                     </div>
-                    <div class="expert__item">
-                        <div class="expr__border-cube-yellow">
-                            <img class="experts__img" src="../Nature-Food/images/expr-icon-2.png" alt="">
 
+
+                    <div class="slider__item">
+                        <div class="expr__border-cube-yellow">
+                            <img src="./images/expr-icon-2.png" alt="">
                         </div>
                         <div class="text__wrap">
                             <p class="experts__title">Ольга Милушкина</p>
                             <p class="experts__text">Cпециалист по гигиене детей и подростков</p>
                         </div>
                     </div>
-                    <div class="expert__item">
+                    <div class="slider__item">
                         <div class="expr__border-cube-red">
-                            <img class="experts__img" src="../Nature-Food/images/expr-icon-3.png" alt="">
-
+                            <img src="./images/expr-icon-3.png" alt="">
                         </div>
                         <div class="text__wrap">
                             <p class="experts__title">Елена Бойко</p>
@@ -556,10 +550,9 @@
                                 (752 тыс. подписчиков)</p>
                         </div>
                     </div>
-                    <div class="expert__item">
-                        <div class="expr__border-cube-green">
-                            <img class="experts__img" src="../Nature-Food/images/expr-icon-4.png" alt="">
-
+                    <div class="slider__item">
+                        <div class="expr__border-cube-yellow">
+                            <img src="./images/expr-icon-4.png" alt="">
                         </div>
                         <div class="text__wrap">
                             <p class="experts__title">Илья Магеря</p>
@@ -567,17 +560,33 @@
                                 подписчиков) </p>
                         </div>
                     </div>
-                    <div class="expert__item">
+                    <div class="slider__item">
                         <div class="expr__border-cube-green">
-                            <img class="experts__img" src="../Nature-Food/images/expr-icon-5.png" alt="">
-
+                            <img src="./images/expr-icon-5.png" alt="">
                         </div>
                         <div class="text__wrap">
                             <p class="experts__title">Галина Иванова</p>
                             <p class="experts__text">Специалист по медицинской реабилитации</p>
                         </div>
                     </div>
-
+                    <div class="slider__item">
+                        <div class="expr__border-cube-red">
+                            <img src="./images/expr-icon-6.png" alt="">
+                        </div>
+                        <div class="text__wrap">
+                            <p class="experts__title">Екатерина Бобылева</p>
+                            <p class="experts__text">Начальник отдела организации надзора по гигиене питания</p>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="expr__border-cube-green">
+                            <img src="./images/expr-icon-7.png" alt="">
+                        </div>
+                        <div class="text__wrap">
+                            <p class="experts__title">Елена Смирнова</p>
+                            <p class="experts__text">Заведующий лабораторией демографии и эпидемиологии питания</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -936,7 +945,9 @@
             <div class="warning__title-wrap">
                 <p class="warning__title">Уважаемые посетители! </p>
                 <p class="warning__text">Сайт находится в стадии заполнения и тестирования. В случае нахождения ошибок и
-                    багов просьба написать сюда <a class="mail__decoration" href="mailto:rospotrebnadzor@imagroup.ru"><span class="warning__text-green">rospotrebnadzor@imagroup.ru</span></a></p>
+                    багов просьба написать сюда <a class="mail__decoration"
+                        href="mailto:rospotrebnadzor@imagroup.ru"><span
+                            class="warning__text-green">rospotrebnadzor@imagroup.ru</span></a></p>
             </div>
         </div>
     </div>
@@ -1004,19 +1015,12 @@
         </div>
 
     </footer>
-
+    
+    <!-- Покдлючаем jQuaery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- Подключаем слайдер Slick -->
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
-
-
-
-
-<!-- <div class="footer__social">
-    <a href="">
-        <img class="footer__social-logo" src="../Nature-Food/images/svg/ok.svg" alt="">
-    </a target="_blank">
-    <img class="footer__social-logo" src="../Nature-Food/images/svg/facebook.svg" alt="">
-    <img class="footer__social-logo" src="../Nature-Food/images/svg/vk.svg" alt="">
-    <img class="footer__social-logo" src="../Nature-Food/images/svg/instagram.svg" alt="">
-</div> -->

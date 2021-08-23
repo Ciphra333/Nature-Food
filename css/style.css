@@ -38,6 +38,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     font-family: 'Gilroy';
 	line-height: 1;
+    padding-top: 113px;
 }
 
 ol, ul {
@@ -383,7 +384,7 @@ img {
     height: auto;
 }
 
-/* Header */
+/* Header Start */
 
 
 .header_logo {
@@ -423,13 +424,19 @@ img {
    width: 100%;
    max-width: 1920px;
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-   /* position: fixed; */
+    position: fixed; 
    top: 0;
    left: 0;
    right: 0;
+   transition: .2s linear;
    background: #fff;
+   z-index: 999;
 
 }
+ 
+/* .header_active {
+    background: #fff;
+} */
 
 .line {
     height: 99px;
@@ -461,8 +468,9 @@ img {
     color: #202620;
     
 }
+/* Header End */
 
-/* Nav */
+/* Nav Start */
 .nav {
     display: flex;
     align-items: center;
@@ -502,6 +510,7 @@ img {
 .nav__icon:hover, .nav__icon:focus, .nav__icon:active {
     opacity: .65;
 }
+/* Nav End */
 
 
 /* Form and button */
@@ -1174,6 +1183,7 @@ opacity: .65 ;
     border:2px solid #FAAE1C;
     border-radius: 5px;
     position: relative;
+    height: 464px;
 }
 .expert__title-main {
     font-weight: 800;
@@ -1268,6 +1278,7 @@ opacity: .65 ;
     border-radius: 100%;
     display: inline-block;
     margin-bottom: 24px;
+    margin-top: 72px;
 }
 .expr__border-cube-yellow {
     padding: 20px;
@@ -1275,6 +1286,7 @@ opacity: .65 ;
     border-radius: 100%;
     display: inline-block;
     margin-bottom: 24px;
+    margin-top: 72px;
 }
 .expr__border-cube-red {
     padding: 20px;
@@ -1282,6 +1294,7 @@ opacity: .65 ;
     border-radius: 100%;
     display: inline-block;
     margin-bottom: 24px;
+    margin-top: 72px;
 }
 .experts__img {
     width: 162px;
@@ -1290,6 +1303,7 @@ opacity: .65 ;
 
 .text__wrap {
     text-align: center;
+    max-width: 205px;
 }
 .experts__title {
     font-weight: bold;
@@ -1582,3 +1596,117 @@ opacity: .65 ;
     background-repeat: no-repeat;
 }
 /* Footer End */
+
+/* Slick Slider Start */
+.slider {
+    position: relative;
+    padding: 0 63px;
+}
+.slider .slick-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid #faae1c;
+    display: inline-flex;
+    align-items: center;
+    left: -2%;
+    background-color: #fff;
+}
+.slick-prev::after {
+    content: '';
+    display: block;
+    background: url(../images/svg/left-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 11px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+.slider .slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 100%;
+    border: 2px solid #faae1c;
+    display: inline-flex;
+    align-items: center;
+    right: -2%;
+    background-color: #fff;
+}
+.slick-next::after {
+    content: '';
+    display: block;
+    background: url(../images/svg/right-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 11px;
+    height: 18px;
+    margin: 0 auto;
+}
+.slider .slider-arrow .slick-prev {
+    left: 0;
+    background: url(../images/svg/left-arrow.svg) 0 0 no-repeat;
+}
+.slider .slider-arrow .slick-next {
+    right: 0;
+}
+.slick-track {
+    display: flex;
+}
+.slick-list {
+    overflow: hidden;
+}
+.slider {
+    display: flex;
+}
+.slider__item {
+    justify-content: space-between;
+}
+/* Slick Slider End */
+
+/* Media Start */
+@media screen and (max-width:1200px) {
+    .container {
+        max-width: 1200px;
+        width: 100%;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:960px) {
+    .container {
+        max-width: 960px;
+    }
+    .header_logo {
+        justify-content: none;
+        padding: 0 40px;
+        margin: 0;
+    }
+    .select {
+        max-width: none;
+    }
+    .select__wrapper-wrap {
+        flex-direction: column;
+        width: inherit;
+
+    }
+    .select-form__submit {
+        margin-left: 0;
+        max-width: none;
+    }
+
+}
+/* Media End */
